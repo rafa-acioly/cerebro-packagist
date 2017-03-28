@@ -2,7 +2,7 @@
 
 > [Cerebro](https://cerebroapp.com) plugin to find packages on packagist.org
 
-![](howitworks.gif)
+![](https://media.giphy.com/media/3ohze2Ix1eACEp4T96/giphy.gif)
 
 ## Usage
 
