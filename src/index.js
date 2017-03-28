@@ -12,6 +12,7 @@ const plugin = ({term, display, actions}) => {
         title: pack.name,
         subtitle: pack.description,
         onSelect: () => {
+          actions.open(pack.url)
           actions.copyToClipboard(`composer install ${pack.name}`)
           new Notification('Composer command copied!', {body: `composer install ${pack.name}`, icon: icon})
         },
