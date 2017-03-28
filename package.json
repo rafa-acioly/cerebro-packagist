@@ -1,13 +1,12 @@
 {
-  "name": "cerebro-plugin",
-  "version": "1.0.0",
+  "name": "cerebro-packagist",
+  "version": "0.1.0",
   "description": "",
   "license": "MIT",
-  "repository": "KELiON/cerebro-plugin",
+  "repository": "https://github.com/rafa-acioly/cerebro-packagist",
   "author": {
-    "name": "Alexandr Subbotin",
-    "email": "kelionweb@gmail.com",
-    "url": "asubbotin.ru"
+    "name": "Rafael Acioly",
+    "email": "aciolyr@gmail.com",
   },
   "engines": {
     "node": ">=4"

@@ -44,3 +44,5 @@ yarn.lock
 
 # Application local files
 dist
+
+cerebro-packagist

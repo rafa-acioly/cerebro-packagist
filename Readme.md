@@ -1,46 +1,24 @@
-# Cerebro Plugin
+# packagist
 
-> It is boilerplate to create plugins for [Cerebro app](http://www.cerebroapp.com)
+> [Cerebro](https://cerebroapp.com) plugin to find packages on packagist.org
+
+![](howitworks.gif)
 
 ## Usage
-* Clone this repo to your machine;
-* Edit `package.json` – `name`, `description`, `author` and `repository` fields;
-* Run `npm install` – you are ready to build your plugin!
 
-## Debugging your plugin
-* Open [Cerebro app](http://www.cerebroapp.com);
-* Enter `settings` and open preview for Cerebro Settings;
-* Turn on developer mode;
-* Now you have development submenu in tray menu. Choose reload and DevTools (main) to open developer tools.
+In Cerebro, type 'packagist' followed by the tag that you want to use to find packages
+* Press enter to copy the composer command to install the package and open the package url on browser
 
-![](screenshot.png)
+## Installing
 
-Put your plugin directory to `~/Library/Application\ Support/Cerebro/plugins/`. Easiest way to do it is to use symbolic links with built-in command:
-```
-npm run debug
-```
-
-
-> On windows use [cygwin](https://www.cygwin.com/) or [git bash](https://git-scm.com/download/win) instead of cmd.exe and `./scripts/debug` command instead of `npm run debug`.
-If you choose to use cmd.exe, use `npm run debug:windows`
-
-Or if you running Cerebro from source code:
-```
-npm run debug -- dev
-```
-Or in cmd.exe
-```
-npm run debug:windows dev
-```
-
-## Documentation
-Use Cerebro [documentation](https://github.com/KELiON/cerebro/blob/master/docs/plugins.md) for plugins.
+* Type `plugins packagist` into Cerebro
+* Click `install`
 
 ## Related
 
-* [Cerebro](http://github.com/KELiON/cerebro) – main repo for Cerebro app;
-* [cerebro tools](http://github.com/KELiON/cerebro-tools) – package with tools to simplify package creation;
+- [Cerebro](http://github.com/KELiON/cerebro) – main repo for Cerebro app;
+- [Plugin's list](https://github.com/lubien/awesome-cerebro)
 
 ## License
 
-MIT © [Alexandr Subbotin](http://asubbotin.ru)
+MIT © Rafael Acioly
