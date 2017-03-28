@@ -1,12 +1,12 @@
 {
   "name": "cerebro-packagist",
-  "version": "0.1.0",
-  "description": "",
+  "version": "0.1.1",
+  "description": "find packages on packagist.org with cerebro",
   "license": "MIT",
   "repository": "https://github.com/rafa-acioly/cerebro-packagist",
   "author": {
     "name": "Rafael Acioly",
-    "email": "aciolyr@gmail.com",
+    "email": "aciolyr@gmail.com"
   },
   "engines": {
     "node": ">=4"
