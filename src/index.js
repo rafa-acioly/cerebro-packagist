@@ -1,5 +1,8 @@
 'use strict';
-var packagist = require('./packagist');
+import React from 'react'
+import Preview from './preview'
+import packagist from './packagist'
+
 const icon = require('./icon.png');
 
 const plugin = ({term, display, actions}) => {
@@ -10,17 +13,12 @@ const plugin = ({term, display, actions}) => {
       display({
         icon,
         title: pack.name,
-        subtitle: pack.description,
         onSelect: () => {
           actions.open(pack.url)
           actions.copyToClipboard(`composer install ${pack.name}`)
           new Notification('Composer command copied!', {body: `composer install ${pack.name}`, icon: icon})
         },
-        getPreview: () => {
-          return `<h1>${pack.name}</h1>
-          <h2>${pack.description}</h2>
-          <small>Downloads: ${pack.downloads}</small>`
-        }
+        getPreview: () => <Preview packinfo={pack} />
       })
     })
   })
