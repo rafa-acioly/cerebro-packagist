@@ -29,6 +29,6 @@ export default class Preview extends Component {
   }
 }
 
-// Preview.PropTypes = {
-//   packinfo: PropTypes.object.isRequired
-// }
+Preview.PropTypes = {
+  packinfo: PropTypes.object.isRequired
+}
