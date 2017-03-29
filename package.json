@@ -1,6 +1,6 @@
 {
   "name": "cerebro-packagist",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "find packages on packagist.org with cerebro",
   "license": "MIT",
   "repository": "https://github.com/rafa-acioly/cerebro-packagist",
