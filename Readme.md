@@ -2,6 +2,8 @@
 
 > [Cerebro](https://cerebroapp.com) plugin to find packages on packagist.org
 
+[![Say Thanks!](https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg)](https://saythanks.io/to/rafa-acioly)
+
 ![](https://media.giphy.com/media/3ohze2Ix1eACEp4T96/giphy.gif)
 
 ## Usage
